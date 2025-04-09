@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <Header />
-      <div className="p-3 bg-[#1A1A1A] h-screen">
+      <div className="p-3 bg-[#F5F5F5] h-screen">
+        <Header />
         <Profile user={testData} />
       </div>
     </>
