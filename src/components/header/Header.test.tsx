@@ -11,6 +11,6 @@ describe("Header component", () => {
 
   test('Отображение названия проекта', () => {
     render(<Header />)
-    expect(screen.getByRole("heading", {name: 'HarmonyHub'})).toBeInTheDocument();
+    expect(screen.getByRole("heading", {name: 'Harmony Hub'})).toBeInTheDocument();
   })
 });

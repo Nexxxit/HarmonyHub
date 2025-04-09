@@ -1,9 +1,13 @@
+import logo from '../../../public/LogoHarmonyHub.svg'
+
 export default function Header() {
   return (
-    <header className="flex justify-between items-center bg-[#1A1A1A] p-2">
-      <div className="flex">
-        <img src="22" role="img" alt="логотип" />
-        <h2 className="text-3xl pt-sans-bold bg-clip-text text-transparent bg-gradient-to-r from-[#6A1B9A] to-[#2196F3]">HarmonyHub</h2>
+    <header className="flex justify-between items-center bg-[#F5F5F5] py-1">
+      <div className="flex gap-2 items-center">
+        <img className='w-10 h-10' src={logo} role="img" alt="логотип" />
+        <h2 className="text-2xl pt-sans-bold text-[#1A237E]">
+          <span className='text-[#B39DDB]'>Harmony</span><span className='text-[#FFD700] text-shadow-xs text-shadow-[#1A237E]'> Hub</span>
+        </h2>
       </div>
     </header>
   );
