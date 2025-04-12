@@ -1,4 +1,4 @@
-import { test, expect, describe, vi, beforeEach } from "vitest";
+import { test, expect, describe, beforeEach } from "vitest";
 import { render, screen, within, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Hobbies from "./Hobbies";
@@ -13,7 +13,7 @@ describe("Hobbies component", () => {
 
   beforeEach(() => {
     user = userEvent.setup();
-    render(<Hobbies hobbiesData={testData} />);
+    render(<Hobbies />);
   });
 
   test("Отображает основные элементы", () => {
